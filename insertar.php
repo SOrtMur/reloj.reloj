@@ -1,7 +1,7 @@
 <?php 
   include_once "../config.php";
 	
-  if (isset($_POST['Insertar'])){
+  if (isset($_POST['Enviar'])){
 		$conex = new mysqli($host,$user,$password,$db);
 		if(isset($_POST[''])){
 			$apellido1 = $_POST['Apellido1']; 
