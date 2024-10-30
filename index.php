@@ -18,7 +18,7 @@
         <input type="text" name="nombre" id="nombre" required><br>
         <label for="edad"></label>
         <input type="number" name="edad" id="edad" min="1" required><br>
-        <input type="submit" value="Enviar">
+        <input type="submit" name="Enviar" value="Enviar">
     </form>
     
     <script src="reloj.js"></script>
