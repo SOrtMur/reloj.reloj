@@ -9,7 +9,7 @@
 	if(isset($_POST['edad'])){
 		$edad = $_POST['edad']; 
 	}
-  $consulta = "insert into alumnos values ('$nombre','$edad');";
+  $consulta = "insert into persona values ('$nombre','$edad');";
   
   if($conex->query($consulta)){
 	echo "Insertado correctamente.";
