@@ -13,10 +13,11 @@
   
   if($conex->query($consulta)){
 	echo "Insertado correctamente.";
-} else {
+  } else {
 	echo "Error en la inserción.<br>";
 	echo $consulta;
 	echo $conex->error;
-}
+   }
+  }
   $conex->close();
 ?>
