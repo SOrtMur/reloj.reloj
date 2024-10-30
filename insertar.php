@@ -4,10 +4,10 @@
   if (isset($_POST['Enviar'])){
 	$conex = new mysqli($host,$user,$password,$db);
 	if(isset($_POST['nombre'])){
-		$apellido1 = $_POST['nombre']; 
+		$nombre = $_POST['nombre']; 
 	}
 	if(isset($_POST['edad'])){
-		$apellido2 = $_POST['edad']; 
+		$edad = $_POST['edad']; 
 	}
   $consulta = "insert into alumnos values ('$nombre','$edad');";
   
