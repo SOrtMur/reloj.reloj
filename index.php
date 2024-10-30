@@ -14,9 +14,9 @@
     <div id="relojCliente"></div>
     <h2>Formulario</h2>
     <form action="insertar.php" method="post">
-        <label for="nombre">Nombre</label>
+        <label for="nombre"></label>
         <input type="text" name="nombre" id="nombre" required><br>
-        <label for="edad">Edad</label>
+        <label for="edad"></label>
         <input type="number" name="edad" id="edad" min="1" required><br>
         <input type="submit" name="Enviar" value="Enviar">
     </form>
